@@ -7,7 +7,7 @@ import (
 )
 
 func mlOps(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Mlops Enpoint Hit")
+	fmt.Fprintf(w, "Mlops Endpoint Hit")
 }
 
 func handleRequests() {
